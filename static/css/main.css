@@ -1,0 +1,60 @@
+body{
+    background-color: #333;
+
+    margin:0px ;   /* 上下左右边距都为0  */
+    padding: 0;
+    height: 100%;
+}
+/*  #title  id选择器  */
+#title{
+    height: 10%;  /*  div高度  10%*/
+    width: 40%;   /*  div宽度40%  */
+    position: absolute;  /*  绝对定位 */
+    top: 0px;  /*  设置div距离顶部0px */
+    left: 30%; /*  设置div距离左侧为30% */
+    display: flex; /*  设置弹性布局 ,以最大限度填充可用空间 */
+    align-items:center; /*  弹性布局   垂直布局居中对齐各项 */
+    justify-content: center; /* 弹性布局  水平布局居中对齐各项 */
+    color: white;  /*  字体颜色 */
+    font-size: 40px;  /* 字体大小 */
+}
+#left1{
+
+    position: absolute;
+
+}
+#left2{
+
+    position: absolute;
+
+}
+
+#left3 {
+
+    position: absolute;
+
+
+}
+#center2{
+
+    position: absolute;
+
+}
+#center3{
+
+    position: absolute;
+
+}
+/*  类选择器  .num */
+.num{
+    float: left; /* 左浮动 */
+    width: 80%;
+    height: 100%;
+    text-align: center;  /*  把html元素中的文本排列到中间  */
+}
+
+.num a{
+    color: blue;
+    font-family: 楷体;
+    font-size: 15px;
+}
